@@ -1,0 +1,33 @@
+{
+  "name": "money-rain",
+  "version": "0.2",
+  "description": "",
+  "bin": "index.js",
+  "main": "index.js",
+  "private": true,
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gate-api": "^5.22.4",
+    "loading-animation": "0.0.2-c",
+    "node-fetch": "^2.6.6",
+    "node-notifier": "^10.0.0",
+    "pkg": "^5.4.1",
+    "readline-sync": "^1.4.10"
+  },
+  "pkg": {
+    "assets": [
+      "img/**/*"
+    ],
+    "outputPath": "dist",
+    "peerDependencies": {
+      "node-notifier": ">=10.0.0"
+    },
+    "peerDependenciesMeta": {
+      "node-notifier": {
+        "optional": true
+      }
+    }
+  }
+}
