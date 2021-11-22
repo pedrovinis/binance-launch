@@ -8,6 +8,7 @@ const main = async() => {
     while(true) {
         const command = readlineSync.question('$- ');
         await runCommand(command);
+        
     }
 }
 
